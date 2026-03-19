@@ -3,5 +3,16 @@
     <Project Path="Bootstrapper/Api/Api.csproj" Id="17fbc5d3-00d6-43ad-a39d-769c9c6471a2" />
   </Folder>
   <Folder Name="/Modules/" />
-  <Folder Name="/Shared/" />
+  <Folder Name="/Modules/Applications/">
+    <Project Path="Modules/Applications/ApplicationsModule/ApplicationsModule.csproj" Id="a764c488-00fb-43d3-9af3-019cdbf90e1d" />
+  </Folder>
+  <Folder Name="/Modules/Identity/">
+    <Project Path="Modules/Identity/IdentityModule/IdentityModule.csproj" Id="79781787-fced-4b67-b53b-5b2d8ae0e722" />
+  </Folder>
+  <Folder Name="/Modules/Jobs/">
+    <Project Path="Modules/Jobs/JobModule/JobModule.csproj" Id="5196e665-b847-4625-b16a-c9cc7da1c1d0" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared/Shared.csproj" Id="7c1f2fa4-9738-4606-b8b0-003a673d022c" />
+  </Folder>
 </Solution>

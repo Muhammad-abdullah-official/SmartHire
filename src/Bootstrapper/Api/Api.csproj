@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Applications\ApplicationsModule\ApplicationsModule.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\IdentityModule\IdentityModule.csproj" />
+    <ProjectReference Include="..\..\Modules\Jobs\JobModule\JobModule.csproj" />
+  </ItemGroup>
+
 </Project>
